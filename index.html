@@ -4,18 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>開元農場</title>
+    <title>開元農場wewebsite</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700;900&display=swap" rel="stylesheet">
     <style>
-        
+        .banner{
+            width: 100%;
+            height: 32vh;
+            background-color: #ccc;
+            background:
+            linear-gradient(115deg,#7bf 30%,
+            transparent 30%) center center / 100% 100% ,
+            url(https://picsum.photos/1440/200?random=10)
+            right center / auto 100%;
+        }
+        .container{
+            height: 100%;
+            width: 100%;
+            min-width: 1440px;
+            margin: auto;
+            
+        }
+        .banner-txt{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /* background-color: #fff; */
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        .banner-txt h1{
+            font-size: 80px;
+            /* background: #fff; */
+            /* height: 200px; */
+            /* display: block; */
+            border-bottom: 1px solid #333;
+            /* font-family: 'Noto Sans TC', sans-serif; */
+            font-weight: 900;
+            padding-bottom: 0.3em;
+            margin-bottom: 0.3em;
+        }
+        .banner-txt h1 small{
+            display: block;
+            font-size: 53px;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: 700;
+            /* height: 100px; */
+            /* margin-bottom: 0.3em; */
+            /* padding-bottom: 0.3em; */
+        }
+        .banner-txt h2{
+            font-size: 50px;
+            font-weight: 700;
+            padding-bottom: 0.3em;
+        }
+        .banner-txt p{
+            font-size: 20px;
+            font-weight: 300;
+        }
+
     </style>
+
 </head>
 <body>
     <header>
-        <nav>
-
-        </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <nav>
+
+    </nav>
+    <main>
+        <article>
+            <section>
+                <div class="banner">
+                    <div class="container">
+                        <div class="banner-txt">
+                            <h1>
+                                開元農場
+                                <small>
+                                    位於阿里山鄉茶山村
+                                </small>
+                            </h1>
+                            <h2>
+                                圖文滿版區塊
+                            </h2>
+                            <p>
+                                這畫面是很常見，在各種樣板網站可説是設計常客
+                                <br>
+                                    金魚切不出來實在是説不過去啊！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+
+    </footer>
 </body>
 </html>
