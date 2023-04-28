@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        banner{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 25px;
+        }
+        li{
+            display: inline-block;
+            padding: 10px;
+            border-left: 2px solid #f8f4f4;
+            height: 20px;
+            /* margin: 20px; */
+        }
+        main {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+            background-color: #faa;
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            background-color: #aaf;
+            flex-basis: 20%;
+        }
+        aside .item1{
+            background-color: #aaa;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+        aside .item2{
+            background-color: #ddd;
+        }
+        articles {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        article1 {
+            display: flex;
+            flex-direction: column;
+            background-color: #aaa;
+            align-items: center;
+            width: 100%;
+        }
+        
+        article2 {
+            display: flex;
+            flex-direction: column;
+            background-color: #ddd;
+            width: 100%;
+        }
+        footer{
+            background-color: rgb(54, 158, 54);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <banner>
+        <h1>logo</h1>
+        <img src="https://picsum.photos/1000/100?random30" alt="">
+    </banner>
+    <nav>
+        <h3 style="margin-right: 20px; l;">nav</h3>
+        <h3 style="margin-right: 20px; l;"><a href="#">a</a></h3>
+        <h3 style="margin-right: 20px; l;"><a href="#">b</a></h3>
+        <h3 style="margin-right: 20px; l;"><a href="#">c</a></h3>
+        <ul>
+            
+        </ul>
+    </nav>
+    <main>
+        <aside>
+            <h1>aside</h1>
+            <aside class="item1">aside item1</aside>
+            <aside class="item2">aside item2</aside>
+        </aside>
+        <articles>
+            <h1>articles</h1>
+            <article1>
+                <h2>article1</h2>
+                <article1 class="section1">article1 section1</section1>
+                <article1 class="section2">article1 section2</section2>
+                <article1 class="section3">article1 section3</section3>
+            </article1>
+            <article2>
+                <h2>article2</h2>
+                <article2 class="section1">article2 section1</section2>
+                <article2 class="section2">article2 section2</section3>
+                <article2 class="section3">article2 section3</section3>
+            </article2>
+        </articles>
+    </main>
+    <footer>
+        copyright 
+    </footer>
+</body>
+
+</html>
