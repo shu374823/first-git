@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>開元農場website</title>
+        <!-- <link rel="stylesheet" href="../reset.css"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700;900&display=swap" rel="stylesheet">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+/* 圖文滿版區塊             */
+        .banner {
+            width: 100%;
+            margin: 10px;
+            padding: 10px;
+            height: 25vh;
+            background-color: #ccc;
+            background:
+                linear-gradient(130deg, rgb(237, 237, 237) 30%,
+                    transparent 30%) center center / 100% 100%,
+                url(./imges/banner.jpg) right center / auto 100%;
+        }
+
+        .container {
+            height: 100%;
+            width: 100%;
+            min-width: 1440px;
+            margin: auto;
+
+        }
+
+        .banner-txt {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            /* background-color: #fff; */
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        .banner-txt h1 {
+            font-size: 80px;
+            /* background: #fff; */
+            /* height: 200px; */
+            display: block;
+            border-bottom: 1px solid #333;
+            /* font-family: 'Noto Sans TC', sans-serif; */
+            font-weight: 900;
+            /* padding-bottom: 0.3em; */
+            margin-bottom: 0.3em;
+        }
+
+        .banner-txt h2 {
+            display: block;
+            font-size: 53px;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: 700;
+            /* height: 100px; */
+            /* margin-bottom: 0.3em; */
+            /* padding-bottom: 0.3em; */
+        }
+
+        .banner-txt h2 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 0cm;
+            display: block;
+            padding-bottom: .8em;
+        }
+
+        .banner-txt p {
+            font-size: 20px;
+            font-weight: 300;
+        }
+/* 圖文互動區塊 */
+        .wrap {
+            width: 100%;
+            display: flex;
+        }
+
+        .item {
+            width: 25%;
+            position: relative;
+        }
+
+        .item img {
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        .item .txt{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 20px;
+            /* margin: 0px; */
+            background-color: rgba(250, 0, 0, .6);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            transition: opacity .5s ;
+            opacity: 0;
+        }
+        .item:hover .txt{
+            opacity: 1;
+        }
+        .item h2 {
+            font-size: 28px;
+            color: #ff0;
+            font-weight: 500;
+        }
+        .item h2:after{
+            content: '';
+            display: block;
+            width: 0%;
+            height: 2px;
+            margin: 10px 0;
+            background-color: #ff0;
+            transition: width .5s .3s;
+        }
+        .item:hover h2:after{
+            width: 100%;
+        }
+        .item p {
+            font-size: 18px;
+            color: #fff;
+            font-weight: 100;
+        }
+/* 人員介紹區塊 */
+        .wrap-host{
+            width: 600px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: center;
+        }
+        .item-host{
+            width: 268px;
+            margin: 15px;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            transform: translateY(0px);
+            transition: .5s;
+        }
+        .item-host img{
+            width: 100%;
+            height: 85%;
+            vertical-align: middle;
+        }
+        .item-host h2{
+            color: #000;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: .3em;
+            margin-bottom: .4em;
+            font-weight: 900;
+            transition: .25s;
+        }
+        .item-host p{
+            line-height: 1.6;
+            color: #000;
+            font-weight: 300;
+            transition: .25s;
+        }
+        .item-host .txt{
+            padding: 0px;
+            position: relative;
+            margin: 0px;
+        }
+        .item-host .txt:before{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: 0;
+            top: 0;
+            /* border: 50px solid #333; */
+            border-top: 50px solid transparent;
+            border-right: 136px solid #fff;
+            border-left: 136px solid #fff;
+            transform: translateY(-100%) ;
+        }
+        .item-host:hover{
+            transform: translateY(-50px);
+        }
+        .item-host:hover .txt{
+            background-image: linear-gradient(0deg, #fb8076, #feb85d);
+        }
+        .item-host:hover .txt:before{
+            border-right: 134px solid #feb85d;
+            border-left: 134px solid #feb85d;
+        }
+        .item-host:hover h2{
+            color: #fff;
+            border-bottom: 1px solid #fff;
+        }
+        .item-host:hover p{
+            color: #fff;
+        }
+        
+        </style>
+
+</head>
+
+<body>
+    <header>
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <!-- banner 滿版圖文區 -->
+        <article>
+            <section>
+                <div class="banner">
+                    <div class="container">
+                        <div class="banner-txt">
+                            <!-- <h1> -->
+                                <img src="./imges/logo.png" style="width: 100px; height: 100px; margin: 10px;" alt="logo">
+                                <h2>
+                                    開元農場
+                                </h2>
+                            <!-- </h1> -->
+                            <h3>
+                                阿里山鄉茶山村
+                            </h3>
+                            <!-- <p>
+                                這畫面是很常見，在各種樣板網站可説是常客
+                                <br>
+                                魚切不出來實在是説不過去啊！
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <!-- introduction 圖文互動區塊 -->
+        <article>
+            <div class="wrap">
+                <div class="item">
+                    <img src="https://picsum.photos/500/400? random=20" alt="">
+                    <div class="txt">
+                        <!-- https://picsum.photos/1440/200?random=10 -->
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem, ng elit. Quas saepe reprehenderit ullam nam mollitia, non ipsum vitae fuga delectus
+                            deserunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://picsum.photos/500/400?random=30" alt="">
+                    <div class="txt">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem, ng elit. Quas saepe reprehenderit ullam nam mollitia, non ipsum vitae fuga delectus
+                            deserunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://picsum.photos/500/400?random=40" alt="">
+                    <div class="txt">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem, ng elit. Quas saepe reprehenderit ullam nam mollitia, non ipsum vitae fuga delectus
+                            deserunt.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://picsum.photos/500/400?random=50" alt="">
+                    <div class="txt">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem, ng elit. Quas saepe reprehenderit ullam nam mollitia, non ipsum vitae fuga delectus
+                            deserunt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- host 人員介紹卡片區塊 -->
+        <article>
+            <div class="wrap-host">
+                <div class="item-host">
+                    <img src="./imges/host_1.jpg" alt="介紹畫面">
+                    <div class="item-host txt">
+                        <h2>許大</h2>
+                        <p>歡迎大家囘<b>嘉</b>來玩</p>
+                    </div>
+                </div>
+                <div class="item-host">
+                    <img src="./imges/host_2.jpg" alt="介紹畫面">
+                    <div class="item-host txt">
+                        <h2>王老師</h2>
+                        <p>懷念山上的<b>粗茶淡飯</b>嗎.... </p>
+                    </div>
+                </div>
+                <div class="item-host">
+                    <img src="./imges/host_3.jpg" alt="介紹畫面">
+                    <div class="item-host txt">
+                        <h2>纖纖</h2>
+                        <p>朋友們多久沒來好好<b>瘋狂</b>一下了呢....</p>
+                    </div>
+                </div>
+                <div class="item-host">
+                    <img src="https://picsum.photos/300/300?random30" alt="介紹畫面">
+                    <div class="item-host txt">
+                        <h2>晧晧</h2>
+                        <p>嘿嘿嘿！想來看<b>帥哥美女</b>嗎.... </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

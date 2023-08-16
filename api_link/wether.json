@@ -1,0 +1,808 @@
+{
+    "data": {
+      "forecast": {
+        "locations": [
+          {
+            "locationName": "苗栗縣",
+            "locationID": "10005000",
+            "latitude": "24.563328",
+            "longitude": "120.81097",
+            "PoP12h": {
+              "description": "12小時降雨機率",
+              "timePeriods": [
+                {
+                  "startTime": "2023-08-16T12:00:00",
+                  "endTime": "2023-08-16T18:00:00",
+                  "probabilityOfPrecipitation": "60",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-16T18:00:00",
+                  "endTime": "2023-08-17T06:00:00",
+                  "probabilityOfPrecipitation": "60",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-17T06:00:00",
+                  "endTime": "2023-08-17T18:00:00",
+                  "probabilityOfPrecipitation": "50",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-17T18:00:00",
+                  "endTime": "2023-08-18T06:00:00",
+                  "probabilityOfPrecipitation": "30",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-18T06:00:00",
+                  "endTime": "2023-08-18T18:00:00",
+                  "probabilityOfPrecipitation": "40",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-18T18:00:00",
+                  "endTime": "2023-08-19T06:00:00",
+                  "probabilityOfPrecipitation": "20",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-19T06:00:00",
+                  "endTime": "2023-08-19T18:00:00",
+                  "probabilityOfPrecipitation": " ",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-19T18:00:00",
+                  "endTime": "2023-08-20T06:00:00",
+                  "probabilityOfPrecipitation": " ",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-20T06:00:00",
+                  "endTime": "2023-08-20T18:00:00",
+                  "probabilityOfPrecipitation": " ",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-20T18:00:00",
+                  "endTime": "2023-08-21T06:00:00",
+                  "probabilityOfPrecipitation": " ",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-21T06:00:00",
+                  "endTime": "2023-08-21T18:00:00",
+                  "probabilityOfPrecipitation": " ",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-21T18:00:00",
+                  "endTime": "2023-08-22T06:00:00",
+                  "probabilityOfPrecipitation": " ",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-22T06:00:00",
+                  "endTime": "2023-08-22T18:00:00",
+                  "probabilityOfPrecipitation": " ",
+                  "measures": "百分比"
+                },
+                {
+                  "startTime": "2023-08-22T18:00:00",
+                  "endTime": "2023-08-23T06:00:00",
+                  "probabilityOfPrecipitation": " ",
+                  "measures": "百分比"
+                }
+              ]
+            },
+            "T": {
+              "description": "平均溫度",
+              "timePeriods": [
+                {
+                  "startTime": "2023-08-16T12:00:00",
+                  "endTime": "2023-08-16T18:00:00",
+                  "temperature": "31",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-16T18:00:00",
+                  "endTime": "2023-08-17T06:00:00",
+                  "temperature": "28",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-17T06:00:00",
+                  "endTime": "2023-08-17T18:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-17T18:00:00",
+                  "endTime": "2023-08-18T06:00:00",
+                  "temperature": "27",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-18T06:00:00",
+                  "endTime": "2023-08-18T18:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-18T18:00:00",
+                  "endTime": "2023-08-19T06:00:00",
+                  "temperature": "27",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-19T06:00:00",
+                  "endTime": "2023-08-19T18:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-19T18:00:00",
+                  "endTime": "2023-08-20T06:00:00",
+                  "temperature": "27",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-20T06:00:00",
+                  "endTime": "2023-08-20T18:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-20T18:00:00",
+                  "endTime": "2023-08-21T06:00:00",
+                  "temperature": "27",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-21T06:00:00",
+                  "endTime": "2023-08-21T18:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-21T18:00:00",
+                  "endTime": "2023-08-22T06:00:00",
+                  "temperature": "28",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-22T06:00:00",
+                  "endTime": "2023-08-22T18:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-22T18:00:00",
+                  "endTime": "2023-08-23T06:00:00",
+                  "temperature": "28",
+                  "measures": "攝氏度"
+                }
+              ]
+            },
+            "MinT": {
+              "description": "最低溫度",
+              "timePeriods": [
+                {
+                  "startTime": "2023-08-16T12:00:00",
+                  "endTime": "2023-08-16T18:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-16T18:00:00",
+                  "endTime": "2023-08-17T06:00:00",
+                  "temperature": "27",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-17T06:00:00",
+                  "endTime": "2023-08-17T18:00:00",
+                  "temperature": "27",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-17T18:00:00",
+                  "endTime": "2023-08-18T06:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-18T06:00:00",
+                  "endTime": "2023-08-18T18:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-18T18:00:00",
+                  "endTime": "2023-08-19T06:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-19T06:00:00",
+                  "endTime": "2023-08-19T18:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-19T18:00:00",
+                  "endTime": "2023-08-20T06:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-20T06:00:00",
+                  "endTime": "2023-08-20T18:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-20T18:00:00",
+                  "endTime": "2023-08-21T06:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-21T06:00:00",
+                  "endTime": "2023-08-21T18:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-21T18:00:00",
+                  "endTime": "2023-08-22T06:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-22T06:00:00",
+                  "endTime": "2023-08-22T18:00:00",
+                  "temperature": "26",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-22T18:00:00",
+                  "endTime": "2023-08-23T06:00:00",
+                  "temperature": "27",
+                  "measures": "攝氏度"
+                }
+              ]
+            },
+            "MaxT": {
+              "description": "最高溫度",
+              "timePeriods": [
+                {
+                  "startTime": "2023-08-16T12:00:00",
+                  "endTime": "2023-08-16T18:00:00",
+                  "temperature": "32",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-16T18:00:00",
+                  "endTime": "2023-08-17T06:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-17T06:00:00",
+                  "endTime": "2023-08-17T18:00:00",
+                  "temperature": "32",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-17T18:00:00",
+                  "endTime": "2023-08-18T06:00:00",
+                  "temperature": "29",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-18T06:00:00",
+                  "endTime": "2023-08-18T18:00:00",
+                  "temperature": "32",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-18T18:00:00",
+                  "endTime": "2023-08-19T06:00:00",
+                  "temperature": "29",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-19T06:00:00",
+                  "endTime": "2023-08-19T18:00:00",
+                  "temperature": "32",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-19T18:00:00",
+                  "endTime": "2023-08-20T06:00:00",
+                  "temperature": "29",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-20T06:00:00",
+                  "endTime": "2023-08-20T18:00:00",
+                  "temperature": "32",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-20T18:00:00",
+                  "endTime": "2023-08-21T06:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-21T06:00:00",
+                  "endTime": "2023-08-21T18:00:00",
+                  "temperature": "32",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-21T18:00:00",
+                  "endTime": "2023-08-22T06:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-22T06:00:00",
+                  "endTime": "2023-08-22T18:00:00",
+                  "temperature": "32",
+                  "measures": "攝氏度"
+                },
+                {
+                  "startTime": "2023-08-22T18:00:00",
+                  "endTime": "2023-08-23T06:00:00",
+                  "temperature": "30",
+                  "measures": "攝氏度"
+                }
+              ]
+            },
+            "UVI": {
+              "description": "紫外線指數",
+              "timePeriods": [
+                {
+                  "startTime": "2023-08-16T12:00:00",
+                  "endTime": "2023-08-16T18:00:00",
+                  "UVIndex": "7",
+                  "UVIDescription": "高量級",
+                  "measures": "紫外線指數"
+                },
+                {
+                  "startTime": "2023-08-17T06:00:00",
+                  "endTime": "2023-08-17T18:00:00",
+                  "UVIndex": "7",
+                  "UVIDescription": "高量級",
+                  "measures": "紫外線指數"
+                },
+                {
+                  "startTime": "2023-08-18T06:00:00",
+                  "endTime": "2023-08-18T18:00:00",
+                  "UVIndex": "7",
+                  "UVIDescription": "高量級",
+                  "measures": "紫外線指數"
+                },
+                {
+                  "startTime": "2023-08-19T06:00:00",
+                  "endTime": "2023-08-19T18:00:00",
+                  "UVIndex": "7",
+                  "UVIDescription": "高量級",
+                  "measures": "紫外線指數"
+                },
+                {
+                  "startTime": "2023-08-20T06:00:00",
+                  "endTime": "2023-08-20T18:00:00",
+                  "UVIndex": "8",
+                  "UVIDescription": "過量級",
+                  "measures": "紫外線指數"
+                },
+                {
+                  "startTime": "2023-08-21T06:00:00",
+                  "endTime": "2023-08-21T18:00:00",
+                  "UVIndex": "8",
+                  "UVIDescription": "過量級",
+                  "measures": "紫外線指數"
+                },
+                {
+                  "startTime": "2023-08-22T06:00:00",
+                  "endTime": "2023-08-22T18:00:00",
+                  "UVIndex": "8",
+                  "UVIDescription": "過量級",
+                  "measures": "紫外線指數"
+                }
+              ]
+            },
+            "WeatherDescription": {
+              "description": "天氣預報綜合描述",
+              "timePeriods": [
+                {
+                  "startTime": "2023-08-16T12:00:00",
+                  "endTime": "2023-08-16T18:00:00",
+                  "weatherDescription": "多雲短暫陣雨或雷雨。降雨機率 60%。溫度攝氏30至32度。悶熱。偏南風 風速2級(每秒3公尺)。相對濕度77%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-16T18:00:00",
+                  "endTime": "2023-08-17T06:00:00",
+                  "weatherDescription": "多雲短暫陣雨或雷雨。降雨機率 60%。溫度攝氏27至30度。舒適至悶熱。西南風 風速2級(每秒2公尺)。相對濕度82%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-17T06:00:00",
+                  "endTime": "2023-08-17T18:00:00",
+                  "weatherDescription": "多雲短暫陣雨或雷雨。降雨機率 50%。溫度攝氏27至32度。舒適至悶熱。西南風 風速2級(每秒3公尺)。相對濕度81%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-17T18:00:00",
+                  "endTime": "2023-08-18T06:00:00",
+                  "weatherDescription": "多雲時陰短暫陣雨或雷雨。降雨機率 30%。溫度攝氏26至29度。舒適至悶熱。西南風 風速<= 1級(每秒1公尺)。相對濕度92%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-18T06:00:00",
+                  "endTime": "2023-08-18T18:00:00",
+                  "weatherDescription": "多雲短暫陣雨或雷雨。降雨機率 40%。溫度攝氏26至32度。舒適至悶熱。偏南風 風速<= 1級(每秒0公尺)。相對濕度86%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-18T18:00:00",
+                  "endTime": "2023-08-19T06:00:00",
+                  "weatherDescription": "陰時多雲。降雨機率 20%。溫度攝氏26至29度。舒適至悶熱。偏南風 風速<= 1級(每秒0公尺)。相對濕度94%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-19T06:00:00",
+                  "endTime": "2023-08-19T18:00:00",
+                  "weatherDescription": "多雲短暫陣雨或雷雨。溫度攝氏26至32度。舒適至悶熱。西南風 風速2級(每秒3公尺)。相對濕度78%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-19T18:00:00",
+                  "endTime": "2023-08-20T06:00:00",
+                  "weatherDescription": "多雲短暫陣雨或雷雨。溫度攝氏26至29度。舒適至悶熱。偏南風 風速<= 1級(每秒2公尺)。相對濕度91%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-20T06:00:00",
+                  "endTime": "2023-08-20T18:00:00",
+                  "weatherDescription": "多雲午後短暫雷陣雨。溫度攝氏26至32度。舒適至悶熱。西南風 風速2級(每秒2公尺)。相對濕度79%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-20T18:00:00",
+                  "endTime": "2023-08-21T06:00:00",
+                  "weatherDescription": "晴時多雲。溫度攝氏26至30度。舒適至悶熱。偏南風 風速2級(每秒3公尺)。相對濕度92%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-21T06:00:00",
+                  "endTime": "2023-08-21T18:00:00",
+                  "weatherDescription": "多雲午後短暫雷陣雨。溫度攝氏26至32度。舒適至悶熱。西南風 風速2級(每秒3公尺)。相對濕度79%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-21T18:00:00",
+                  "endTime": "2023-08-22T06:00:00",
+                  "weatherDescription": "晴時多雲。溫度攝氏26至30度。舒適至悶熱。偏南風 風速3級(每秒4公尺)。相對濕度87%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-22T06:00:00",
+                  "endTime": "2023-08-22T18:00:00",
+                  "weatherDescription": "晴午後短暫雷陣雨。溫度攝氏26至32度。舒適至悶熱。西南風 風速3級(每秒4公尺)。相對濕度76%。",
+                  "measures": "NA"
+                },
+                {
+                  "startTime": "2023-08-22T18:00:00",
+                  "endTime": "2023-08-23T06:00:00",
+                  "weatherDescription": "晴時多雲。溫度攝氏27至30度。舒適至悶熱。偏南風 風速2級(每秒3公尺)。相對濕度87%。",
+                  "measures": "NA"
+                }
+              ]
+            },
+            "Wx": {
+              "description": "天氣現象",
+              "timePeriods": [
+                {
+                  "startTime": "2023-08-16T12:00:00",
+                  "endTime": "2023-08-16T18:00:00",
+                  "weather": "多雲短暫陣雨或雷雨",
+                  "weatherIcon": "15",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-16T18:00:00",
+                  "endTime": "2023-08-17T06:00:00",
+                  "weather": "多雲短暫陣雨或雷雨",
+                  "weatherIcon": "15",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-17T06:00:00",
+                  "endTime": "2023-08-17T18:00:00",
+                  "weather": "多雲短暫陣雨或雷雨",
+                  "weatherIcon": "15",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-17T18:00:00",
+                  "endTime": "2023-08-18T06:00:00",
+                  "weather": "多雲時陰短暫陣雨或雷雨",
+                  "weatherIcon": "16",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-18T06:00:00",
+                  "endTime": "2023-08-18T18:00:00",
+                  "weather": "多雲短暫陣雨或雷雨",
+                  "weatherIcon": "15",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-18T18:00:00",
+                  "endTime": "2023-08-19T06:00:00",
+                  "weather": "陰時多雲",
+                  "weatherIcon": "06",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-19T06:00:00",
+                  "endTime": "2023-08-19T18:00:00",
+                  "weather": "多雲短暫陣雨或雷雨",
+                  "weatherIcon": "15",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-19T18:00:00",
+                  "endTime": "2023-08-20T06:00:00",
+                  "weather": "多雲短暫陣雨或雷雨",
+                  "weatherIcon": "15",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-20T06:00:00",
+                  "endTime": "2023-08-20T18:00:00",
+                  "weather": "多雲午後短暫雷陣雨",
+                  "weatherIcon": "22",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-20T18:00:00",
+                  "endTime": "2023-08-21T06:00:00",
+                  "weather": "晴時多雲",
+                  "weatherIcon": "02",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-21T06:00:00",
+                  "endTime": "2023-08-21T18:00:00",
+                  "weather": "多雲午後短暫雷陣雨",
+                  "weatherIcon": "22",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-21T18:00:00",
+                  "endTime": "2023-08-22T06:00:00",
+                  "weather": "晴時多雲",
+                  "weatherIcon": "02",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-22T06:00:00",
+                  "endTime": "2023-08-22T18:00:00",
+                  "weather": "晴午後短暫雷陣雨",
+                  "weatherIcon": "21",
+                  "measures": "自定義 Wx 文字"
+                },
+                {
+                  "startTime": "2023-08-22T18:00:00",
+                  "endTime": "2023-08-23T06:00:00",
+                  "weather": "晴時多雲",
+                  "weatherIcon": "02",
+                  "measures": "自定義 Wx 文字"
+                }
+              ]
+            },
+            "scene": [
+              {
+                "ScenicSpotID": "C1_315081200H_000002",
+                "ScenicSpotName": "石壁染織工坊DIY",
+                "Description": "染織工坊的主人林淑莉，從外地嫁入石壁部落後，才開始學習泰雅族傳統染織技藝，從苧麻取絲、植物取色到機杼織布等傳統技法都十分嫻熟，也成立工坊積極推廣。遊客來此可體驗植物染色、染織、框織畫等DIY活動，也有咖啡廳和民宿服務。",
+                "Phone": "886-3-7821777",
+                "Address": "353苗栗縣南庄鄉東河村21鄰21號",
+                "ZipCode": null,
+                "TravelInfo": "<p>建議開車前往</p>",
+                "OpenTime": "09:00~17:00",
+                "Picture": {
+                  "PictureUrl1": "https://www.trimt-nsa.gov.tw/Content/Uploads/StrollArea/Detail/944c4998-746b-4628-806f-554face73a65.jpg",
+                  "PictureDescription1": "石壁染織工坊DIY",
+                  "PictureUrl2": null,
+                  "PictureDescription2": null,
+                  "PictureUrl3": null,
+                  "PictureDescription3": null
+                },
+                "MapUrl": null,
+                "Position": {
+                  "PositionLat": "24.573909759521484",
+                  "PositionLon": "121.04389953613281",
+                  "GeoHash": "wsq5f3t3r"
+                },
+                "Class1": null,
+                "WebsiteUrl": null,
+                "ParkingInfo": null,
+                "ParkingPosition": {
+                  "PositionLat": null,
+                  "PositionLon": null,
+                  "GeoHash": null
+                },
+                "TicketInfo": null,
+                "Remarks": null,
+                "Keyword": null,
+                "City": "苗栗縣",
+                "SrcUpdateTime": "2023-08-16T01:42:59+08:00",
+                "UpdateTime": "2023-08-16T02:22:01+08:00"
+              },
+              {
+                "ScenicSpotID": "C1_315081200H_000003",
+                "ScenicSpotName": "神仙谷",
+                "Description": "苗栗南庄神仙谷海拔約650公尺，是由鹿湖溪、鹿場溪、風美溪匯流切割而成的峽谷地形，因斷層岩床形成數十公尺的高度差。奔騰的流水從上層岩床傾瀉而下，而有壯闊的瀑布景致，讓人不禁讚嘆大自然的鬼斧神工。值得一提的是，神仙谷的特殊地景，受到導演魏德聖的青睞，而選定神仙谷為電影「賽德克巴萊」的拍攝場地之一。漫步神仙谷瀑布與吊橋神仙谷是泰雅族人的祖靈聖地，昔日稱為死亡谷，是鄰近鹿場部落埋葬先人的地方",
+                "Phone": "886-3-7824570",
+                "Address": "353苗栗縣南庄鄉苗21線往鹿場方向",
+                "ZipCode": null,
+                "TravelInfo": null,
+                "OpenTime": "全天",
+                "Picture": {
+                  "PictureUrl1": "https://www.trimt-nsa.gov.tw/Content/Uploads/StrollArea/Detail/a8d8c147-c9e8-474d-96c6-644ccd37e6ee_thumb.jpg",
+                  "PictureDescription1": "神仙谷",
+                  "PictureUrl2": null,
+                  "PictureDescription2": null,
+                  "PictureUrl3": null,
+                  "PictureDescription3": null
+                },
+                "MapUrl": null,
+                "Position": {
+                  "PositionLat": "24.545900344848633",
+                  "PositionLon": "121.03047180175781",
+                  "GeoHash": "wsq5dh7wn"
+                },
+                "Class1": null,
+                "WebsiteUrl": null,
+                "ParkingInfo": null,
+                "ParkingPosition": {
+                  "PositionLat": null,
+                  "PositionLon": null,
+                  "GeoHash": null
+                },
+                "TicketInfo": null,
+                "Remarks": null,
+                "Keyword": null,
+                "City": "苗栗縣",
+                "SrcUpdateTime": "2023-08-16T01:42:59+08:00",
+                "UpdateTime": "2023-08-16T02:22:01+08:00"
+              },
+              {
+                "ScenicSpotID": "C1_315081200H_000004",
+                "ScenicSpotName": "橫屏背生態賞魚步道(關閉中)",
+                "Description": "橫屏背生態賞魚步道距離南庄市區約4公里。 橫屏背原為原住民居住地，日治時期為便於管理統治大舉遷移部落，現在多以客家人為主。至今，橫屏背生態環境保持良好，橫屏背生態賞魚步道除可連結附近既有觀光景點外，每年四月至五月間螢火蟲與油桐花，更是帶動當地旅遊旺季的重要遊憩資源。步道名：橫屏背生態賞魚步道步道長度(M)：1095m 行路時間(分)：60分沿途主要站點說明：休憩觀景台",
+                "Phone": "886-3-7824570",
+                "Address": "353苗栗縣南庄鄉屏背村12鄰26號，戰備道路旁，苗21線旁",
+                "ZipCode": null,
+                "TravelInfo": null,
+                "OpenTime": "關閉中",
+                "Picture": {
+                  "PictureUrl1": "https://www.trimt-nsa.gov.tw/Content/Uploads/ArticleArea/Detail/2d04aa3b-467e-4704-b0bc-dab5953fc3e6_thumb.jpg",
+                  "PictureDescription1": "橫屏背生態賞魚步道(關閉中)",
+                  "PictureUrl2": null,
+                  "PictureDescription2": null,
+                  "PictureUrl3": null,
+                  "PictureDescription3": null
+                },
+                "MapUrl": null,
+                "Position": {
+                  "PositionLat": "24.60781478881836",
+                  "PositionLon": "121.04021453857422",
+                  "GeoHash": "wsq5frdyc"
+                },
+                "Class1": null,
+                "WebsiteUrl": null,
+                "ParkingInfo": null,
+                "ParkingPosition": {
+                  "PositionLat": null,
+                  "PositionLon": null,
+                  "GeoHash": null
+                },
+                "TicketInfo": null,
+                "Remarks": null,
+                "Keyword": null,
+                "City": "苗栗縣",
+                "SrcUpdateTime": "2023-08-16T01:42:59+08:00",
+                "UpdateTime": "2023-08-16T02:22:01+08:00"
+              },
+              {
+                "ScenicSpotID": "C1_315081200H_000010",
+                "ScenicSpotName": "加里山步道",
+                "Description": "加里山素有「台灣富士山」之稱，步道全長約5800公尺；前半段坡度平緩，不但有特別的「水管路」，還有早期運送木材的小鐵道遺跡、水質清澈見底的風美溪等，景觀十分特殊。後半段則是最具挑戰的部分，不僅有巨石滿佈的山路，甚至還有老樹盤根錯節的上坡。當站在山頂，望著遠處飄過的嵐煙和美麗的山景，路途的艱辛也就微不足道了。步道長度(M)：5800m行路時間(分)：1日沿途主要站點說明：加里山山步道為聯絡南庄蓬萊、風美及鹿場。沿途可見伐木時期的台車鐵軌，見證當年興盛的林業。山頂有一等三角點，視野遼闊，可遠眺氣勢磅礡的雪山聖稜線和鄰近的鹿場大山。",
+                "Phone": "886-3-7824570",
+                "Address": "353苗栗縣南庄鄉東河村加里山（鹿場風美山莊旁的產業道路末端）",
+                "ZipCode": null,
+                "TravelInfo": "<p>自行開車：</p><p>南下－中山高速公路&gt;頭份交流道&gt;苗124甲&gt;珊珠湖&gt;台3線與苗124共用線&gt;三灣&gt;苗124&gt;龍門口&gt;南庄&gt;南庄大橋&gt;左轉苗21線&gt;東河&gt;鹿場</p><p>北上－苗栗‧公館交流道南下&gt;台6線&gt;獅潭&gt;苗124&gt;仙山&gt;八卦力&gt;南庄大橋前&gt;右轉苗2",
+                "OpenTime": "全天",
+                "Picture": {
+                  "PictureUrl1": "https://www.trimt-nsa.gov.tw/Content/Uploads/StrollArea/Detail/580f8837-2194-4647-9308-be7045e61d7c_thumb.jpg",
+                  "PictureDescription1": "加里山步道",
+                  "PictureUrl2": null,
+                  "PictureDescription2": null,
+                  "PictureUrl3": null,
+                  "PictureDescription3": null
+                },
+                "MapUrl": null,
+                "Position": {
+                  "PositionLat": "24.527732849121094",
+                  "PositionLon": "121.02477264404297",
+                  "GeoHash": "wsq59cps3"
+                },
+                "Class1": null,
+                "WebsiteUrl": null,
+                "ParkingInfo": null,
+                "ParkingPosition": {
+                  "PositionLat": null,
+                  "PositionLon": null,
+                  "GeoHash": null
+                },
+                "TicketInfo": null,
+                "Remarks": null,
+                "Keyword": null,
+                "City": "苗栗縣",
+                "SrcUpdateTime": "2023-08-16T01:42:59+08:00",
+                "UpdateTime": "2023-08-16T02:22:01+08:00"
+              },
+              {
+                "ScenicSpotID": "C1_315081200H_000011",
+                "ScenicSpotName": "南庄遊客中心",
+                "Description": "南庄遊客中心成立於92年4月20日，現有之建築體為觀光局管轄的第一座綠建築標章之遊客中心，建築物符合綠化量、基地保水、日常節能及水資源等四大指標，緊鄰南庄老街，於98年1月17日揭幕啟用。 南庄往日林、礦興盛，後來取而代之的是觀光休閒業，為一多元文化融合的鄉鎮，所以遊客中心內部的陳設也融入了客家及原住民元素，提供來訪遊客旅遊資訊、諮詢服務、景點介紹、多媒體影片導覽及原住民、客家服飾免費體驗，還有無線上網(iTaiwan)、汽車充電、行李寄放、輪椅、雨傘、老花眼鏡借用等便民貼心服務。遊客中心旁的活動廣場，假日不定期會舉辦街頭藝人的表演及四時節慶活動。遊客中心為推廣手工藝每月會舉辦免費「手工藝DIY」，邀請在地客家及原住民的老師親授教學，讓遊客可以體驗不同文化之美。",
+                "Phone": "886-3-7824570",
+                "Address": "353苗栗縣南庄鄉東村4鄰大同路43號",
+                "ZipCode": null,
+                "TravelInfo": "<p>大眾運輸：</p><p>【鐵路】：竹南站下車&gt;轉搭苗栗客運&gt;南庄</p><p>【公路】：頭份站下車&gt;轉搭苗栗客運&gt;南庄</p><p>【客運】：南庄線</p><p>自行開車：</p><p>【南下】：中山高速公路&gt;頭份交流道&gt;苗124甲&gt;珊珠湖&gt;台3線與苗124共用線&gt;三灣&gt;苗124&gt;龍門口",
+                "OpenTime": "星期一-星期日 08:30-17:30",
+                "Picture": {
+                  "PictureUrl1": "https://www.trimt-nsa.gov.tw/Content/Uploads/StrollArea/Detail/2795cee2-186c-4343-9538-73af642eed02_thumb.jpg",
+                  "PictureDescription1": "南庄遊客中心",
+                  "PictureUrl2": null,
+                  "PictureDescription2": null,
+                  "PictureUrl3": null,
+                  "PictureDescription3": null
+                },
+                "MapUrl": null,
+                "Position": {
+                  "PositionLat": "24.598316192626953",
+                  "PositionLon": "121.00006866455078",
+                  "GeoHash": "wsq5cmvx9"
+                },
+                "Class1": null,
+                "WebsiteUrl": null,
+                "ParkingInfo": null,
+                "ParkingPosition": {
+                  "PositionLat": null,
+                  "PositionLon": null,
+                  "GeoHash": null
+                },
+                "TicketInfo": null,
+                "Remarks": null,
+                "Keyword": null,
+                "City": "苗栗縣",
+                "SrcUpdateTime": "2023-08-16T01:42:59+08:00",
+                "UpdateTime": "2023-08-16T02:22:01+08:00"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
